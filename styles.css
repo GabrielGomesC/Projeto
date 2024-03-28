@@ -1,0 +1,138 @@
+* {
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Mate SC", serif;
+   font-style: normal;
+}
+
+/* INICIO CABECALHO*/
+.cabecalho {
+   background-color: #c1c9c4;
+}
+
+.cabecalho-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1%;
+}
+
+.logo p {
+   font-size: 35px;
+}
+
+.lista-meio {
+   display: flex;
+   justify-content: flex-end;
+   list-style-type: none;
+}
+
+.lista-direita {
+   display: flex;
+   justify-content: flex-end;
+   list-style-type: none;
+}
+
+.lista-direita a {
+   text-decoration: none;
+   padding: 10px 20px;
+   font-size: 19px;
+   color: #434343;
+   border-radius: 30px;
+   transition: 0.6s;
+}
+
+.lista-direita a:hover {
+   background-color: #434343;
+}
+
+.lista-direita li {
+   margin: 0% 2% 0% 2%;
+}
+
+.lista-meio a {
+   text-decoration: none;
+   padding: 10px 20px;
+   font-size: 19px;
+   color: #434343;
+   border-radius: 30px;
+   transition: 0.6s;
+}
+
+.lista-meio a:hover {
+   background-color: #434343;
+}
+
+.lista-meio li {
+   margin: 0% 2% 0% 2%;
+}
+
+/* FIM CABECALHO*/
+/* INICIO MAIN*/
+#container-principal {
+   background-color: #c1c9c4;
+   width: 100vw;
+   height: 89vh;
+   background-size: cover;
+}
+
+.conteudo-container {
+   display: flex;
+   height: 100%;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.slogan-container {
+   display: flex;
+   flex-direction: column;
+}
+
+.caixa-pesquisa {
+   display: flex;
+   justify-content: space-around;
+}
+
+.mini-container {
+   margin: 10%;
+}
+
+
+/* FIM DO MAIN*/
+/* INICIO DA SECAO PATROCINADORES*/
+
+#patrocinadores {
+   display: flex;
+   background-color: white;
+   justify-content: center;
+   max-width: 75%;
+}
+
+.patrocinadores-container {
+   background-color: white;
+   flex-direction: column;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   padding: 1%;
+   flex-wrap: wrap;
+   max-width: 20%;
+}
+
+#big-companies{
+   margin-bottom: 10%;
+}
+
+.patrocinadores-container img{
+   margin-top: 10%;
+}
+
+/* FIM DA SECAO PATROCINADORES*/
